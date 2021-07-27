@@ -23,15 +23,15 @@ The LTC3646 was chosen to convert 12V from the car's battery to a 5V output beca
 
 LTC3646 schematic document:
 
- ![LTC3646 Schematics](images/LTC3646_Schematic.png)
+![LTC3646 Schematics](images/LTC3646_Schematic.png)
  
 LTC3646 PCB layout (2D view):
 
- ![LTC3646 Schematics](images/LTC3646_2D.png)
+![LTC3646 2D view](images/LTC3646_2D.png)
  
 LTC3646 PCB layout (3D view):
 
- ![LTC3646 Schematics](images/LTC3646_3D.png)
+![LTC3646 3D view](images/LTC3646_3D.png)
 
 ## NCV1117 linear voltage regulator
 
@@ -48,12 +48,24 @@ Since a switching regulator was used to efficiently convert 12V to 5V, we chose 
 
 NCV1117 schematic document:
 
- ![NCV1117 Schematics](images/NCV1117_Schematic.png)
+![NCV1117 Schematics](images/NCV1117_Schematic.png)
  
 NCV1117 PCB layout (2D view):
 
- ![NCV1117 Schematics](images/NCV1117_2D.png)
+![NCV1117 2D view](images/NCV1117_2D.png)
  
 NCV1117 PCB layout (3D view):
 
- ![NCV1117 Schematics](images/NCV1117_3D.png)
+![NCV1117 3D view](images/NCV1117_3D.png)
+ 
+ ## Application
+ 
+ This power supply was used to deliver power to a board called the Sensor and Telemetry Module, pictured below in the board's upper left corner. My design was slightly modified to fit better on this board and to improve cooling for the linear regulator. It takes 12V input from the battery, then delivers 5V to components like AND gates, comparators and transcievers, while delivering 3.3V to the board's microcontroller and SD card reader.
+ 
+STM board (2D view):
+
+![STM 2D view](images/STM_2D.png)
+
+STM board (3D view):
+
+![STM 3D view](images/STM_3D.png)
