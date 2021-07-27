@@ -60,7 +60,7 @@ NCV1117 PCB layout (3D view):
  
  ## Application
  
- This power supply was used to deliver power to a board called the Sensor and Telemetry Module, pictured below in the board's upper left corner. My design was slightly modified to fit better on this board and to improve cooling for the linear regulator. It takes 12V input from the battery, then delivers 5V to components like AND gates, comparators and transcievers, while delivering 3.3V to the board's microcontroller and SD card reader.
+ This power supply was used to deliver power to a board called the Sensor and Telemetry Module and is pictured below in the board's upper left corner. I added the power supplt to the board and did layout for its traces. My design was slightly modified to fit better on this board and to improve cooling for the linear regulator. It takes 12V input from the battery, then delivers 5V to components like AND gates, comparators and transcievers, while delivering 3.3V to the board's microcontroller and SD card reader.
  
 STM board (2D view):
 
