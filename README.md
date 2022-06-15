@@ -4,7 +4,7 @@
  
  ## Project Description
 
-This is a project I did as a member of Highlander Racing, UCR's FSAE club. I created schematics and PCB layouts for a power supply that can take a 12V input and convert it to 5V *and* 3.3V outputs to power components on a board. After designing the power supply, I implemented it on one of the boards for the club's car: the Sensor Telemetry Module (STM)!
+This is a project I did as a member of Highlander Racing, UCR's FSAE club. I created schematics and PCB layouts for a power supply that can take a 12V input and convert it to 5V and 3.3V outputs to power components on a board. After designing the power supply, I implemented it on one of the boards for the club's car: the Sensor Telemetry Module (STM)!
 
 The power supply consists of two parts: an [LTC3646 step-down converter](https://www.analog.com/en/products/ltc3646.html#product-overview) that takes a 12V input from the car's battery and steps it down to 5V, and an [NCV1117 linear voltage regulator](https://www.onsemi.com/products/power-management/linear-regulators-ldo/ncv1117) that takes 5V as input and converts it to a 3.3V output.
 
