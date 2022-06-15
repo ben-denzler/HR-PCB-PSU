@@ -23,15 +23,15 @@ I chose the LTC3646 to convert 12V to 5V because of its efficiency. The boards i
 
 LTC3646 schematic:
 
-![LTC3646 Schematics](images/LTC3646_Schematic.png)
+<img src="https://raw.githubusercontent.com/ben-denzler/HR-PCB-PSU/main/images/LTC3646_Schematic.png" width=80% height=80%>
 
 LTC3646 PCB layout (2D view):
 
-![LTC3646 2D view](images/LTC3646_2D.png)
+<img src="https://raw.githubusercontent.com/ben-denzler/HR-PCB-PSU/main/images/LTC3646_2D.png" width=70% height=70%>
 
 LTC3646 PCB layout (3D view):
 
-![LTC3646 3D view](images/LTC3646_3D.png)
+<img src="https://raw.githubusercontent.com/ben-denzler/HR-PCB-PSU/main/images/LTC3646_3D.png" width=70% height=70%>
 
 ## NCV1117 linear voltage regulator
 
@@ -48,26 +48,26 @@ I chose the NCV1117 to convert 5V to 3.3V because heat was less of a concern for
 
 NCV1117 schematic document:
 
-![NCV1117 Schematics](images/NCV1117_Schematic.png)
+<img src="https://raw.githubusercontent.com/ben-denzler/HR-PCB-PSU/main/images/NCV1117_Schematic.png" width=80% height=80%>
 
 NCV1117 PCB layout (2D view):
 
-![NCV1117 2D view](images/NCV1117_2D.png)
+<img src="https://raw.githubusercontent.com/ben-denzler/HR-PCB-PSU/main/images/NCV1117_2D.png" width=40% height=40%>
 
 NCV1117 PCB layout (3D view):
 
-![NCV1117 3D view](images/NCV1117_3D.png)
+<img src="https://raw.githubusercontent.com/ben-denzler/HR-PCB-PSU/main/images/NCV1117_3D.png" width=40% height=40%>
 
  ## Application
 
 This power supply was used to power a board called the Sensor and Telemetry Module, and is seen below in the board's upper left corner. I made some modifications to my design to make it fit better on this board while staying cool. It takes 12V input from the battery, then delivers 5V to components like AND gates, comparators and transcievers, while delivering 3.3V to the board's microcontroller and SD card reader.
 
-It takes a 12V input from the car’s battery, then delivers 5V to everything except a microcontroller and SD card reader. These two parts receive 3.3V.
+It takes a 12V input from the car’s battery, then delivers 5V to everything except a microcontroller and SD card reader, which get 3.3V.
 
 STM board (2D view):
 
-![STM 2D view](images/STM_2D.png)
+<img src="https://raw.githubusercontent.com/ben-denzler/HR-PCB-PSU/main/images/STM_2D.png" width=80% height=80%>
 
 STM board (3D view):
 
-![STM 3D view](images/STM_3D.png)
+<img src="https://raw.githubusercontent.com/ben-denzler/HR-PCB-PSU/main/images/STM_3D.png" width=80% height=80%>
